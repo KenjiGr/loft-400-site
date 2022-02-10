@@ -1,0 +1,9 @@
+
+.main-nav{
+    color: white;
+}
+
+.main-nav-active{
+    color: black;
+    background-color: antiquewhite;
+}

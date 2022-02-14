@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         'body': '#17171F',
-        'nav': '#333',
+        'nav': '#111111',
         'selected-text': '#333',
         'theme': '#3F3FFF',
         'secondary': '#9191A4',
@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ["'Poppins'", 'sans serif']
+      },
+      backgroundImage: {
+        'main-bg': "url('https://images.unsplash.com/photo-1576482921454-776d28ab1bdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80')"
       }
     },
   },

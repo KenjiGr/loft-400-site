@@ -1,12 +1,11 @@
 import React from 'react';
 import Nav from './Navbar';
-import './Header.css'
 
 function Header(){
     return (
         <div>
-            <div className='socials bg-black flex justify-between items-center h-10'>
-                <div className='py-2 mx-4'>
+            <div className=' bg-black flex justify-between items-center h-10'>
+                <div className='py-2 mx-4 text-white'>
                     <span className='mx-2'>loft400@gmail.com</span>
                     <span className='mx-2'>910-478-8914</span>
                 </div>

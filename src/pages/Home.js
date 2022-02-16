@@ -2,9 +2,14 @@ import React from "react";
 
 function Home(){
     return (
-        <div className="bg-main-bg mx-5">
-            <div className="sm:mx-0 my-2 ">
+        <div className="backdrop-blur-sm mx-5">
+            <div className="mx-auto my-12 flex">
+                <div>
+                    
+                </div>
+                <div>
 
+                </div>
             </div>
         </div>
     )

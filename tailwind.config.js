@@ -16,7 +16,8 @@ module.exports = {
         'poppins': ["'Poppins'", 'sans serif']
       },
       backgroundImage: {
-        'main-bg': "url('https://images.unsplash.com/photo-1576482921454-776d28ab1bdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80')"
+        'main-bg': "url('https://images.unsplash.com/photo-1576482921454-776d28ab1bdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80')",
+        'title': "url('https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')"
       }
     },
   },

@@ -8,12 +8,12 @@ function Nav(){
             <nav className='bg-nav container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 max-w-full '>
                 <div className='text-lg text-white font-bold m-5'>Loft 400</div>
                 <div className="hidden md:flex items-center">
-                    <NavLink to='/' className={({isActive}) => "main-nav" + (isActive ? " main-nav-active" : "")}>Home</NavLink>
-                    <NavLink to='/about' className={({isActive}) => "main-nav" + (isActive ? " main-nav-active" : "")} >About</NavLink>
-                    <NavLink to='/services' className={({isActive}) => "main-nav" + (isActive ? " main-nav-active" : "")} >Services</NavLink>
-                    <NavLink to='/prices' className={({isActive}) => "main-nav" + (isActive ? " main-nav-active" : "")} >Prices</NavLink>
-                    <NavLink to='/gallery' className={({isActive}) => "main-nav" + (isActive ? " main-nav-active" : "")} >Gallery</NavLink>
-                    <NavLink to='/contact' className={({isActive}) => "main-nav" + (isActive ? " main-nav-active" : "")} >Contact</NavLink>
+                    <NavLink to='/' className={({isActive}) => "hover:text-secondary main-nav" + (isActive ? " main-nav-active" : "")}>Home</NavLink>
+                    <NavLink to='/about' className={({isActive}) => "hover:text-secondary main-nav" + (isActive ? " main-nav-active" : "")} >About</NavLink>
+                    <NavLink to='/services' className={({isActive}) => "hover:text-secondary main-nav" + (isActive ? " main-nav-active" : "")} >Services</NavLink>
+                    <NavLink to='/prices' className={({isActive}) => "hover:text-secondary main-nav" + (isActive ? " main-nav-active" : "")} >Prices</NavLink>
+                    <NavLink to='/gallery' className={({isActive}) => "hover:text-secondary main-nav" + (isActive ? " main-nav-active" : "")} >Gallery</NavLink>
+                    <NavLink to='/contact' className={({isActive}) => "hover:text-secondary main-nav" + (isActive ? " main-nav-active" : "")} >Contact</NavLink>
                 </div>
                 <div class="md:hidden">
                 <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">

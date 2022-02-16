@@ -6,8 +6,8 @@ module.exports = {
         'body': '#17171F',
         'nav': '#111111',
         'selected-text': '#333',
-        'theme': '#3F3FFF',
-        'secondary': '#9191A4',
+        'theme': '#077',
+        'secondary': '#077',
         'badge': '#3F3F51',
         'input-border': '#565666',
         'input': '#2A2A35'

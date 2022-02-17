@@ -1,5 +1,5 @@
 import React from "react";
-import {ScissorOutlined} from '@ant-design/icons';
+// import {ScissorOutlined} from '@ant-design/icons';
 import InfoCard from '../components/InfoCard'
 
 function About(){

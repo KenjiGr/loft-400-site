@@ -1,5 +1,6 @@
 import React from "react";
 import {ScissorOutlined} from '@ant-design/icons';
+import InfoCard from '../components/InfoCard'
 
 function About(){
     return (
@@ -48,10 +49,8 @@ function About(){
                     <h3>Hair & Beard Stylist</h3>
                 </div>
                 <img src="" alt="" />
-                <div>
-                    <h1>Services</h1>
-                    <ScissorOutlined/>
-                    <h2>Haircuts</h2>
+                <div className="w-1/2">
+                    <InfoCard title={'Services'} secondary={'Hair Cuts'} description={'cuts hair'}/>
                 </div>
             </div>
         </div>
